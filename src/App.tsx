@@ -1,10 +1,12 @@
 import React from 'react';
 import './App.css';
+import Header from './components/Header';
+import '@atlaskit/css-reset'
 
 class App extends React.Component {
   render() {
     return (
-      <div>Hello World</div>
+      <Header />
     );
   }
 }
