@@ -2,6 +2,14 @@
 # yarn lockfile v1
 
 
+"@atlaskit/analytics-namespaced-context@^6.3.0":
+  version "6.3.0"
+  resolved "https://registry.yarnpkg.com/@atlaskit/analytics-namespaced-context/-/analytics-namespaced-context-6.3.0.tgz#341b8b8d1b7dc8fba9f141217d257bceccfe3ee1"
+  integrity sha512-Xp6veip1pzIFg87nzZk/oydN9tUs+4OJeLdegr8Xbra9cwf20aYQiiiXyMhT8ANZBRS3DdrHfLilQbyaqf8i8A==
+  dependencies:
+    "@atlaskit/analytics-next" "^8.0.0"
+    "@babel/runtime" "^7.0.0"
+
 "@atlaskit/analytics-next-stable-react-context@1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@atlaskit/analytics-next-stable-react-context/-/analytics-next-stable-react-context-1.0.1.tgz#93c4c7a1a35f4ab606d727af443f49f0842fd96f"
@@ -18,6 +26,24 @@
     "@babel/runtime" "^7.0.0"
     prop-types "^15.5.10"
     use-memo-one "^1.1.1"
+
+"@atlaskit/atlassian-navigation@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@atlaskit/atlassian-navigation/-/atlassian-navigation-1.1.0.tgz#d8dd7b002da103deb43b9e4f355299c21ad9cd0b"
+  integrity sha512-ThJdsdSJwK0xvBGJ/sxMuzqJz2VtvFBtr7ylcfZMGd4dr/GGKf6JXVs1/mjFO2eRI9l3BIUx4S0sbP5uu+TnyA==
+  dependencies:
+    "@atlaskit/analytics-namespaced-context" "^6.3.0"
+    "@atlaskit/button" "^16.0.0"
+    "@atlaskit/icon" "^21.4.0"
+    "@atlaskit/logo" "*"
+    "@atlaskit/popup" "^1.1.0"
+    "@atlaskit/theme" "^11.4.0"
+    "@atlaskit/tooltip" "^17.0.0"
+    "@atlaskit/width-detector" "^3.0.0"
+    "@babel/runtime" "^7.0.0"
+    "@emotion/core" "^10.0.9"
+    chromatism "^2.6.0"
+    lodash "^4.17.15"
 
 "@atlaskit/button@^16.0.0":
   version "16.0.0"
@@ -127,6 +153,16 @@
     raf-schd "^2.1.0"
     react-scrolllock "^5.0.1"
 
+"@atlaskit/logo@*":
+  version "13.5.2"
+  resolved "https://registry.yarnpkg.com/@atlaskit/logo/-/logo-13.5.2.tgz#c3ec0f3b40e7ab875c1117a247e306033db463a9"
+  integrity sha512-uySbUHfo3nGpYEJ+HplmyDdSC28XYlJFWHCkLwXcedQ6cxtuTTZwCdOmzzHQHUwDOpf73kcB8/aQ8As6dRhiEA==
+  dependencies:
+    "@atlaskit/ds-lib" "^1.2.0"
+    "@babel/runtime" "^7.0.0"
+    "@emotion/core" "^10.0.9"
+    react-uid "^2.2.0"
+
 "@atlaskit/motion@^1.0.0":
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/@atlaskit/motion/-/motion-1.0.2.tgz#dd30f2704db88eae482675399115dc110db45ecc"
@@ -166,7 +202,21 @@
     "@popperjs/core" "^2.9.1"
     react-popper "^2.2.3"
 
-"@atlaskit/portal@^4.1.0":
+"@atlaskit/popup@^1.1.0":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@atlaskit/popup/-/popup-1.1.1.tgz#ec3c05af9a97a429943064a35942b4e7869f24a5"
+  integrity sha512-8o+Wjp3FCcKlYu92L0TsIpRjAov6LfiV0Lf7bMTHJSg3sdP3U2pldLK0LDvQBnL0FiGI9WwDY2c2l9u1FhfRzg==
+  dependencies:
+    "@atlaskit/popper" "^5.0.0"
+    "@atlaskit/portal" "^4.0.0"
+    "@atlaskit/theme" "^11.4.0"
+    "@atlaskit/tokens" "^0.0.18"
+    "@babel/runtime" "^7.0.0"
+    "@emotion/core" "^10.0.9"
+    bind-event-listener "^1.0.2"
+    focus-trap "^2.4.5"
+
+"@atlaskit/portal@^4.0.0", "@atlaskit/portal@^4.1.0":
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/@atlaskit/portal/-/portal-4.2.3.tgz#cd8215d1af2ae93e29dead2acaad1d334c27848d"
   integrity sha512-BVPpPSdGdEmn9kqf20rXMnQiKiKDFobS75LF95PKLUDjvhXhJxIcSTKoYzf7hPwMAfWNVGl58zO4TEQKqfpfOg==
@@ -288,6 +338,14 @@
     "@babel/runtime" "^7.0.0"
     "@emotion/core" "^10.0.9"
     bind-event-listener "^1.0.2"
+
+"@atlaskit/width-detector@^3.0.0":
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/@atlaskit/width-detector/-/width-detector-3.0.5.tgz#ee2a34d9ad9e1f7867de56544c1d77c6ba95e782"
+  integrity sha512-V9oYuRI4jaR6uab+DXnGq2FAuXqmKFIlP+IT0fJ72bc2lnYT69+TiKW0pLMcdW6VLhZdJlGPCrJEA5ld5kDvvA==
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+    raf-schd "^2.1.0"
 
 "@babel/code-frame@7.10.4":
   version "7.10.4"
@@ -3803,6 +3861,11 @@ chownr@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/chownr/-/chownr-2.0.0.tgz#15bfbe53d2eab4cf70f18a8cd68ebe5b3cb1dece"
   integrity sha512-bIomtDF5KGpdogkLd9VspvFzk9KfpyyGlS8YFVZl7TGPBHL5snIOnxeshwVgPteQ9b4Eydl+pVbIyE1DcvCWgQ==
+
+chromatism@^2.6.0:
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/chromatism/-/chromatism-2.6.0.tgz#c50ba715565bc9febd87b57a351850e1e51376a4"
+  integrity sha1-xQunFVZbyf69h7V6NRhQ4eUTdqQ=
 
 chrome-trace-event@^1.0.2:
   version "1.0.2"
