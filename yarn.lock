@@ -123,7 +123,7 @@
   dependencies:
     "@babel/runtime" "^7.0.0"
 
-"@atlaskit/icon@^21.4.0", "@atlaskit/icon@^21.5.0", "@atlaskit/icon@^21.6.0", "@atlaskit/icon@^21.7.0":
+"@atlaskit/icon@^21.4.0", "@atlaskit/icon@^21.5.0", "@atlaskit/icon@^21.6.0", "@atlaskit/icon@^21.7.0", "@atlaskit/icon@^21.7.3":
   version "21.7.3"
   resolved "https://registry.yarnpkg.com/@atlaskit/icon/-/icon-21.7.3.tgz#81e04753000e58e804b910345f59c7e0f817421a"
   integrity sha512-mtTnQH6zyqIWHh1/0d4y07hfr0F6D7uOUr6wDqjeEyZD4jmeoBlcnLrIFtXjMd8BFDVkswusuQCqNQospFp1SQ==
